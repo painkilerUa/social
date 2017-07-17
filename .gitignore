@@ -1,0 +1,4 @@
+.gitignore
+/node_modules
+/social-vue
+/.idea

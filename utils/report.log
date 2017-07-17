@@ -1,0 +1,15 @@
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-17T13:45:08.927Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-17T14:22:42.667Z"}
+{"level":"info","message":"Error in process reading file Error: ENOENT: no such file or directory, open 'D:\\public\\spa\\index.html'","timestamp":"2017-07-17T14:22:51.966Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-17T14:23:27.613Z"}
+{"level":"info","message":"Error in process reading file Error: ENOENT: no such file or directory, open 'D:\\Eugene\\public\\spa\\index.html'","timestamp":"2017-07-17T14:23:30.744Z"}
+{"level":"info","message":"Error in process reading file Error: ENOENT: no such file or directory, open 'D:\\Eugene\\public\\spa\\index.html'","timestamp":"2017-07-17T14:23:31.921Z"}
+{"level":"info","message":"Error in process reading file Error: ENOENT: no such file or directory, open 'D:\\Eugene\\public\\spa\\index.html'","timestamp":"2017-07-17T14:25:54.690Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-17T14:29:28.072Z"}
+{"level":"info","message":"Error in process reading file Error: ENOENT: no such file or directory, open 'D:\\public\\spa\\index.html'","timestamp":"2017-07-17T14:29:59.250Z"}
+{"level":"info","message":"Error in process reading file Error: ENOENT: no such file or directory, open 'D:\\public\\spa\\index.html'","timestamp":"2017-07-17T14:30:00.490Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-17T14:30:14.927Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-17T14:33:27.084Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-17T14:36:46.481Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-17T14:41:33.133Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-17T14:47:55.666Z"}
