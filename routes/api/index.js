@@ -3,7 +3,8 @@
 
 const config = require('../../config');
 const jwt = require('express-jwt');
-const registration = require('./registration')
+const registrationHander = require('./registration');
+const loginHander = require('./login');
 //const login = require('./login');
 
 let jwtCheck = jwt({
@@ -13,8 +14,8 @@ let jwtCheck = jwt({
 });
 
 module.exports = (app) => {
-    app.post('/api/registration', registration);
-    // app.post('/api/login', login);
+    app.post('/api/registration', registrationHander);
+    app.post('/api/login', loginHander);
     // app.get('/api/orders', jwtCheck, getOrders);
     // app.post('/api/orders', jwtCheck, createOrder);
     // app.get('/api/customers', jwtCheck, getCustomers);
