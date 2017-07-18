@@ -7,10 +7,10 @@ CREATE TABLE users(
     user_role ENUM('user', 'admin'),
     user_name VARCHAR(255) DEFAULT NULL,
     user_age int(3) UNSIGNED DEFAULT NULL,
+    user_avatar ENUM('TRUE','FALSE') DEFAULT 'FALSE',
+    is_locked ENUM('TRUE','FALSE') DEFAULT 'FALSE',
     PRIMARY KEY(id),
     UNIQUE (user_login)
 );
 
 
-INSERT INTO products (name, short_description, description, price, img_url, quantity, vendor, category_id, attr_type, attr_manufacturer, attr_vid, attr_sae, attr_capacity)
-    VALUES ('Масло Aral H

@@ -5,7 +5,7 @@ const config = require('../../config');
 const jwt = require('express-jwt');
 const registrationHander = require('./registration');
 const loginHander = require('./login');
-//const login = require('./login');
+const getUsers =  require('./getUsers');
 
 let jwtCheck = jwt({
     secret: config['jwt_secret'],
@@ -16,7 +16,7 @@ let jwtCheck = jwt({
 module.exports = (app) => {
     app.post('/api/registration', registrationHander);
     app.post('/api/login', loginHander);
-    // app.get('/api/orders', jwtCheck, getOrders);
+    app.get('/api/profile', jwtCheck, getUsers);
     // app.post('/api/orders', jwtCheck, createOrder);
     // app.get('/api/customers', jwtCheck, getCustomers);
     // app.post('/api/customers', jwtCheck, createCustomer);
