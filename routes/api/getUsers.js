@@ -1,28 +1,46 @@
 "use strict"
+const mysql = require('../../manageSQL.js')
+const log = require('../../utils');
 
-
-module.exports = function(req, res, next){
-    if(req.user.scope){
-
+module.exports = (req, res) => {
+    if(req.user === undefined) res.status(401).send('You should be authorized')
+    let user = JSON.parse(req.user.scope);
+    let SQLquery;
+    switch (user.role) {
+        case 'user':
+            SQLquery = "SELECT id, user_login, user_role, user_name, user_age, user_avatar, is_locked FROM users WHERE id=" + user.id + ";";
+            break;
+        case 'admin':
+            SQLquery = "SELECT id, user_login, user_role, user_name, user_age, user_avatar, is_locked FROM users;";
+            break;
+        default:
+            res.status(401).send('Unknown user role')
     }
-    //     let getCustomer = new Promise((resolve, reject) =>{
-    //         let connection = manage.createConnection();
-    //         let SQLquery = "SELECT id, customer_surname, customer_name, customer_patronymic, customer_main_phone, customer_add_phone, customer_add_1_phone, customer_email, customer_city, customer_del_name, customer_del_depart_num, customer_local_address, customer_comment FROM customers;";
-    //         connection.query(SQLquery, (err, rows, fields) => {
-    //             if (err) {
-    //                 reject(err);
-    //                 connection.end();
-    //             }
-    //             connection.end();
-    //             resolve(rows);
-    //         });
-    //     })
-    //     getCustomer.then(
-    //         resolve => {
-    //             res.send(resolve)
-    //         }, reject => {
-    //             log.info('some errors in getting customers from DB ' + reject);
-    //             res.status(500).send('Customers were not gotten')
-    //         })
-    // }
+    new Promise((resolve, reject) => {
+        mysql(SQLquery, (err, rows) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(rows);
+            }
+        })
+    }).then((resolve) => {
+        let customers = {group: []};
+        for(let item of resolve){
+            if(item.id === user.id){
+                customers.cur_user = item;
+                continue;
+            }
+            customers.group.push(item)
+        }
+        res.send(customers);
+    }).catch((err) => {
+        log.info('Some server error ' + err);
+        res.status(501).send('Some server error')
+    })
+
+
+
+
+
 }

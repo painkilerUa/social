@@ -62,3 +62,11 @@
 {"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T16:16:25.542Z"}
 {"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T16:17:41.523Z"}
 {"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T16:18:08.918Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T19:38:51.542Z"}
+{"level":"info","message":"[MYSQL] Error connecting to mysql:Error: connect ETIMEDOUT","timestamp":"2017-07-18T19:39:31.867Z"}
+{"level":"info","message":"Some server error Error: connect ETIMEDOUT","timestamp":"2017-07-18T19:39:31.872Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T19:40:15.214Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T20:14:10.872Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T20:17:59.189Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T20:21:28.523Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T20:44:57.716Z"}

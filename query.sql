@@ -14,3 +14,4 @@ CREATE TABLE users(
 );
 
 
+INSERT INTO users (user_login, user_hash, user_role, user_name) VALUES ('beetroot', '" + hash + "', 'user', '" + username +"')"
