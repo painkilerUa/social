@@ -41,11 +41,7 @@ module.exports = (req, res) => {
                 if(req.files.length){
                     let name = userScope.id;
                     let ext = "." + req.files[0].mimetype.split('/')[1];
-                    let filePath = path.format({
-                        dir: './public/avatar/',
-                        name: name,
-                        ext: ext
-                    });
+                    let filePath = "./public/avatar/" + name + ext;
                     fs.writeFile(filePath, req.files[0].buffer, (err) => {
                         if (err){
                             reject(err);
@@ -64,7 +60,7 @@ module.exports = (req, res) => {
                     query[key] = payload.data[key];
                 }
             }
-            query['user_avatar_name'] = resolve;
+            if(resolve)query['user_avatar_name'] = resolve;
 
             let SQLquery = "UPDATE users SET " + queryObjToString(query) +  " WHERE id=" + userScope.id;
 

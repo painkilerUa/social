@@ -19,9 +19,4 @@ module.exports = (app) => {
     app.post('/api/login', loginHander);
     app.get('/api/profile', jwtCheck, getUsers);
     app.put('/api/profile', jwtCheck, editUsers);
-    // app.post('/api/orders', jwtCheck, createOrder);
-    // app.get('/api/customers', jwtCheck, getCustomers);
-    // app.post('/api/customers', jwtCheck, createCustomer);
-    // app.get('/api/products', jwtCheck, getProducts);
-    // app.post('/api/products', jwtCheck, createProduct);
 }

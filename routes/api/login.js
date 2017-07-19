@@ -14,7 +14,7 @@ module.exports = (req, res) => {
     const hash = crypto.createHmac('sha256', pass).update(config['secret_string']).digest('hex');
 
     new Promise((resolve, reject) => {
-        let SQLquery = "SELECT id, user_hash, user_role FROM users where user_login='" + login + "';";
+        let SQLquery = "SELECT id, user_hash, user_role FROM users where user_login='" + login + "'";
         mysql(SQLquery, (err, rows) => {
             if (err) {
                 reject(err);

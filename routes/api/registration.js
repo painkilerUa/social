@@ -24,7 +24,7 @@ module.exports = (req, res) => {
             }
         })
     }).then((resolve) => {
-        return res.send('Your account has been successfully created')
+        res.send('Your account has been successfully created')
     }).catch((err) => {
         if(err.errno === 1062){
             res.status(401).send('This username is already taken')
