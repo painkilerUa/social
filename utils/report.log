@@ -70,3 +70,78 @@
 {"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T20:17:59.189Z"}
 {"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T20:21:28.523Z"}
 {"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-18T20:44:57.716Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T07:35:21.531Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T08:47:02.860Z"}
+{"level":"info","message":"[MYSQL] Error connecting to mysql:Error: connect ETIMEDOUT","timestamp":"2017-07-19T08:47:37.117Z"}
+{"level":"info","message":"Some server error Error: connect ETIMEDOUT","timestamp":"2017-07-19T08:47:37.119Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T08:47:59.315Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T08:50:13.940Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T10:16:34.005Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T10:39:13.011Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T10:42:32.899Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T10:42:43.361Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T10:44:53.511Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T10:45:37.755Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T10:58:21.215Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T11:04:03.384Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T12:31:51.751Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T12:35:50.286Z"}
+{"level":"info","message":"Some server error Error: ER_BAD_FIELD_ERROR: Unknown column 'user_avatar' in 'field list'","timestamp":"2017-07-19T12:36:18.504Z"}
+{"level":"info","message":"Some server error Error: ER_BAD_FIELD_ERROR: Unknown column 'user_avatar' in 'field list'","timestamp":"2017-07-19T12:36:18.511Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T12:37:16.996Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T12:58:36.004Z"}
+{"level":"info","message":"Some server error ReferenceError: user is not defined","timestamp":"2017-07-19T12:58:36.078Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T12:59:26.245Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:03:39.473Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:06:08.327Z"}
+{"level":"info","message":"Some server error ReferenceError: path is not defined","timestamp":"2017-07-19T13:06:18.922Z"}
+{"level":"info","message":"Some server error ReferenceError: path is not defined","timestamp":"2017-07-19T13:07:08.517Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:08:19.625Z"}
+{"level":"info","message":"Some server error Error: ENOENT: no such file or directory, open 'D:\\Eugene\\social\\publick\\avatar\\2png'","timestamp":"2017-07-19T13:09:23.589Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:10:59.247Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:12:43.434Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:14:51.788Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:17:01.136Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:18:33.462Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:19:17.622Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:22:36.382Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:25:26.928Z"}
+{"level":"info","message":"[MYSQL] Error connecting to mysql:Error: connect ETIMEDOUT","timestamp":"2017-07-19T13:26:50.875Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:27:46.145Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:31:28.716Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:34:20.587Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:38:58.094Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:42:37.468Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:43:11.392Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:45:38.940Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:46:38.508Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:48:32.315Z"}
+{"level":"info","message":"Some server error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name='Seme', user_avatar_name='undefined' WHERE id=2' at line 1","timestamp":"2017-07-19T13:48:32.513Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:48:39.522Z"}
+{"level":"info","message":"Some server error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name='Seme', user_avatar_name='undefined' WHERE id=2' at line 1","timestamp":"2017-07-19T13:48:45.317Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T13:49:15.279Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:38:16.030Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:40:34.403Z"}
+{"level":"info","message":"Some server error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=2' at line 1","timestamp":"2017-07-19T14:40:48.569Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:41:03.539Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:41:11.516Z"}
+{"level":"info","message":"Some server error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name='Синди', user_age='7', user_avatar_name='undefined' WHERE id=2' at line 1","timestamp":"2017-07-19T14:41:15.311Z"}
+{"level":"info","message":"Some server error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name='Синди', user_age='7', user_avatar_name='undefined' WHERE id=2' at line 1","timestamp":"2017-07-19T14:41:26.876Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:41:33.823Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:44:22.698Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:53:17.563Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:53:43.435Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:54:20.024Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:55:10.665Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T14:55:16.810Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T15:15:49.620Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T15:17:19.501Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T15:17:43.941Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T16:24:30.321Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T16:30:34.602Z"}
+{"level":"info","message":"Some server error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TRUE' at line 1","timestamp":"2017-07-19T16:30:34.776Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T16:30:59.528Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T16:33:08.483Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T16:33:44.803Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T16:36:27.376Z"}
+{"level":"info","message":"Express server listening on port 3302...","timestamp":"2017-07-19T16:36:58.590Z"}

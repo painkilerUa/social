@@ -3,18 +3,18 @@ const mysql = require('../../manageSQL.js')
 const log = require('../../utils');
 
 module.exports = (req, res) => {
-    if(req.user === undefined) res.status(401).send('You should be authorized')
+    if(req.user === undefined) return res.status(401).send('You should be authorized')
     let user = JSON.parse(req.user.scope);
     let SQLquery;
     switch (user.role) {
         case 'user':
-            SQLquery = "SELECT id, user_login, user_role, user_name, user_age, user_avatar, is_locked FROM users WHERE id=" + user.id + ";";
+            SQLquery = "SELECT id, user_login, user_role, user_name, user_age, user_avatar_name, is_locked FROM users WHERE id=" + user.id + ";";
             break;
         case 'admin':
-            SQLquery = "SELECT id, user_login, user_role, user_name, user_age, user_avatar, is_locked FROM users;";
+            SQLquery = "SELECT id, user_login, user_role, user_name, user_age, user_avatar_name, is_locked FROM users;";
             break;
         default:
-            res.status(401).send('Unknown user role')
+            return res.status(401).send('Unknown user role')
     }
     new Promise((resolve, reject) => {
         mysql(SQLquery, (err, rows) => {
@@ -35,12 +35,7 @@ module.exports = (req, res) => {
         }
         res.send(customers);
     }).catch((err) => {
+        res.status(501).send('Some server error');
         log.info('Some server error ' + err);
-        res.status(501).send('Some server error')
     })
-
-
-
-
-
 }

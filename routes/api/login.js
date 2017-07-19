@@ -42,8 +42,8 @@ module.exports = (req, res) => {
             res.status(401).send('Login was not find')
         }
     }).catch((err) => {
+        res.status(501).send('Some server error');
         log.info('Some server error ' + err);
-        res.status(501).send('Some server error')
     })
 
     function createIdToken(user) {

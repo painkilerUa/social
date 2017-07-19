@@ -8,7 +8,8 @@ module.exports = (req, res) => {
         if (err){
             res.status(501).send('Error 501')
             log.info('Error in process reading file ' + err)
+        }else {
+            res.end(data)
         }
-        res.end(data)
     });
 }
